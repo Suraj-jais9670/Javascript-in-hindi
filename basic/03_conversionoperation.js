@@ -24,5 +24,27 @@ let isLoggedIn = 1
 //"suraj" => true 
 
 let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber);
+//let stringNumber = String(someNumber)
+//console.log(stringNumber);
+
+// ******************* Operation **************** //
+
+let value = 4
+// let stringNumber = 4
+// console.log(stringNumber);
+let str1 = "hello"
+let str2 = " Suraj"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2+ "2");
+
+// console.log((1 +2) * 3 % 5);
+
+// console.log(+true);
+// console.log(+"");
+
+
