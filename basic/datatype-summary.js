@@ -30,3 +30,27 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// sstack(primitive) , Heap(non-primitive)
+
+let myYoutubename = "suryadot.com"
+
+let anothername = myYoutubename
+anothername = "cofee aur code"
+
+ console.log(myYoutubename);
+ console.log(anothername);
+
+
+ let userOne = {
+    eamil: "suryakumarjaiswal@gmail.com",
+    upi: "suryapaytm@ybl"
+ }
+
+ let userTwo = userOne
+ userTwo.email = "surya9670@gmail.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
