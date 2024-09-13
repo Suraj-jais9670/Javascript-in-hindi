@@ -29,3 +29,14 @@ map.set('Fr', 'France')
 for (const [key , value] of map) {
     console.log(key , ":-" ,value);
 }
+
+
+const myObject = {
+    'game1' : 'gfs',
+    'game2' : 'Spiderman'
+}
+
+// for (const [key, value] of myObject) {
+//     console.log(key,":-", value);
+    
+// }
